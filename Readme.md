@@ -9,7 +9,7 @@ This repository contains a setup for Apache Kafka using Docker Compose. It inclu
 
 ## Getting Started
 
-### 1. Clone the Repository
+Clone the Repository
 
 ```bash
 git clone https://github.com/kslikith22/Nodejs-Kafka.git
@@ -35,7 +35,3 @@ node consumer.js
 To stop the Kafka and ZooKeeper services, run:
 
 docker-compose down
-
-
-
-

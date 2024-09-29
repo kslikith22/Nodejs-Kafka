@@ -1,17 +1,15 @@
-# Nodejs-Kafka
+Nodejs-Kafka
 
 This repository contains a setup for Apache Kafka using Docker Compose. It includes a producer server and a consumer server to demonstrate message production and consumption.
 
-## Prerequisites
+Prerequisites
 
 - Docker and Docker Compose installed on your machine.
 - Node.js installed (for running producer and consumer scripts).
 
-## Getting Started
+Getting Started
+1. Clone the Repository
 
-### 1. Clone the Repository
-
-```bash
 git clone https://github.com/kslikith22/Nodejs-Kafka.git
 
 To start the Kafka and ZooKeeper services, run the following command:
@@ -35,7 +33,3 @@ node consumer.js
 To stop the Kafka and ZooKeeper services, run:
 
 docker-compose down
-
-
-
-
